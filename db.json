@@ -1,0 +1,283 @@
+{
+    "ritId": 1,
+    "ritUUID": "66ffba2b-ee89-4a97-b4da-aca5139a782c",
+    "stroom": {
+      "deleted": false,
+      "stroomProducent": {
+        "organisatieNummer": "123456",
+        "organisatieNaam": "LZP",
+        "straatnaam": "Korenmolenlaan",
+        "huisNummer": "44",
+        "toevoeging": null,
+        "postcode": "1611XG",
+        "stad": "Purmerend",
+        "land": "Nederland"
+      },
+      "verzendAdres": {
+        "naam": "Locatie 1",
+        "straatnaam": "korenmolenlaan",
+        "huisNummer": "44",
+        "toevoeging": null,
+        "postcode": "1611XG",
+        "stad": "Bovenkarspel",
+        "land": "Nederland",
+        "locatieCoords": null
+      },
+      "stroomIHM": {
+        "organisatieNummer": "123456",
+        "organisatieNaam": "LZP",
+        "straatnaam": "Korenmolenlaan",
+        "huisNummer": "44",
+        "toevoeging": null,
+        "postcode": "1611XG",
+        "stad": "Purmerend",
+        "land": "Nederland"
+      },
+      "stroomVervoerder": [
+        {
+          "organisatieNummer": "123123",
+          "organisatieNaam": "LZP 3",
+          "straatnaam": "Straat 4",
+          "huisNummer": "420",
+          "toevoeging": null,
+          "postcode": "1230XG",
+          "stad": "Bovenkarspel",
+          "land": "België"
+        }
+      ],
+      "stroomVerwerker": {
+        "organisatieNummer": "1234567",
+        "organisatieNaam": "LZP 2",
+        "straatnaam": "Test straat",
+        "huisNummer": "44",
+        "toevoeging": null,
+        "postcode": "1232XG",
+        "stad": "Test",
+        "land": "België"
+      },
+      "project": {
+        "id": 1,
+        "createdDate": "2022-12-16T15:29:48.000+00:00",
+        "lastModifiedDate": "2023-02-22T12:15:51.000+00:00",
+        "createdBy": "test@test",
+        "createdByOrganisation": 1,
+        "lastModifiedBy": "handhaving@test",
+        "deleted": false,
+        "projectUUID": "0d9ad3e5-d4e6-47d3-ac76-fea7978df003",
+        "projectOrganisatie": {
+          "id": 1,
+          "createdDate": "2022-12-16T14:40:27.000+00:00",
+          "lastModifiedDate": "2022-12-16T14:40:27.000+00:00",
+          "createdBy": "admin",
+          "createdByOrganisation": 1,
+          "deleted": false,
+          "organisatieNummer": "123456",
+          "organisatieNaam": "LZP",
+          "straatnaam": "Korenmolenlaan",
+          "huisNummer": "44",
+          "postcode": "1611XG",
+          "stad": "Purmerend",
+          "land": "Nederland"
+        },
+        "projectNaam": "Test Project 1",
+        "projectOmschrijving": "A6 Verbouwing",
+        "projectLocatie": "Adres123",
+        "projectNummer": "123",
+        "projectLogo": null,
+        "materialen": [
+          {
+            "omschrijving": "asd",
+            "hoeveelheid": null,
+            "euralCode": {
+              "id": 6,
+              "code": "01 01 02",
+              "isHazardous": false,
+              "labels": {
+                "en": "wastes from mineral non-metalliferous excavation (01 01 02)",
+                "nl": "afval van de winning van niet-metaalhoudende mineralen (01 01 02)"
+              }
+            },
+            "chemischeSamenstelling": null,
+            "fysischeEigenschappen": null,
+            "verpakking": null
+          }
+        ],
+        "contactPersoon": {
+          "naam": "naw",
+          "email": "test@test.nl",
+          "telefoonNummer": "06123466"
+        },
+        "gpslocatie": null
+      },
+      "status": "ONDERTEKEND",
+      "materialen": [
+        {
+          "omschrijving": "asd",
+          "hoeveelheid": null,
+          "euralCode": {
+            "id": 6,
+            "code": "01 01 02",
+            "isHazardous": false,
+            "labels": {
+              "en": "wastes from mineral non-metalliferous excavation (01 01 02)",
+              "nl": "afval van de winning van niet-metaalhoudende mineralen (01 01 02)"
+            }
+          },
+          "chemischeSamenstelling": null,
+          "fysischeEigenschappen": null,
+          "verpakking": null
+        }
+      ],
+      "allowedToActivate": null,
+      "isActive": null,
+      "extraOptions": {
+        "qualityCode": "123",
+        "partijNummer": 123,
+        "referenceId": "BOS002"
+      },
+      "transportInstructies": null,
+      "startPublicKey": null,
+      "startHandtekening": null,
+      "startSignDate": null,
+      "document": null,
+      "stroomUUID": "4244cb8f-9223-4b55-86d2-9e255e2d9b46"
+    },
+    "vervoerDatum": "2023-02-06T15:41:27.640+00:00",
+    "ontvangstDatum": null,
+    "lastModifiedDate": "2023-02-06T15:41:28.000+00:00",
+    "ritVoertuig": [
+      {
+        "voertuigUUID": "8dbceb23-8002-4a87-8750-1333c8653110",
+        "kenteken": "01-ABC-123",
+        "voertuig": null,
+        "voertuigOrganisatie": {
+          "id": 10,
+          "createdDate": "2022-12-22T14:26:24.000+00:00",
+          "lastModifiedDate": "2022-12-22T14:26:24.000+00:00",
+          "createdBy": "test@test",
+          "createdByOrganisation": 1,
+          "lastModifiedBy": "test@test",
+          "deleted": false,
+          "organisatieNummer": "123123",
+          "organisatieNaam": "LZP 3",
+          "straatnaam": "Straat 4",
+          "huisNummer": "420",
+          "postcode": "1230XG",
+          "stad": "Bovenkarspel",
+          "land": "België"
+        },
+        "voertuigId": 1,
+        "actief": true
+      }
+    ],
+    "allowedToFinalize": false,
+    "transporten": [
+      {
+        "id": 1,
+        "createdDate": "2023-02-06T15:41:28.000+00:00",
+        "lastModifiedDate": "2023-02-06T15:41:31.000+00:00",
+        "createdBy": null,
+        "createdByOrganisation": 10,
+        "lastModifiedBy": null,
+        "deleted": false,
+        "transportUUID": "66ffba2b-ee89-4a97-b4da-aca5139a782c",
+        "startLocatie": "0-0",
+        "bestemmingLocatie": "0-0",
+        "status": "AANGEKOMEN",
+        "vervoerDatum": "2023-02-06T15:41:27.640+00:00",
+        "ontvangstDatum": "2023-02-06T15:41:31.046+00:00"
+      },
+      {
+        "id": 2,
+        "createdDate": "2023-02-06T15:43:25.000+00:00",
+        "lastModifiedDate": "2023-02-06T15:43:27.000+00:00",
+        "createdBy": null,
+        "createdByOrganisation": 10,
+        "lastModifiedBy": null,
+        "deleted": false,
+        "transportUUID": "e9b14e31-f29b-416f-8e54-85460ac2d005",
+        "startLocatie": "0-0",
+        "bestemmingLocatie": "0-0",
+        "status": "AANGEKOMEN",
+        "vervoerDatum": "2023-02-06T15:43:24.876+00:00",
+        "ontvangstDatum": "2023-02-06T15:43:27.259+00:00"
+      },
+      {
+        "id": 3,
+        "createdDate": "2023-02-06T15:43:30.000+00:00",
+        "lastModifiedDate": "2023-02-06T15:43:32.000+00:00",
+        "createdBy": null,
+        "createdByOrganisation": 10,
+        "lastModifiedBy": null,
+        "deleted": false,
+        "transportUUID": "969bd912-2c6b-4e06-bb54-4d55c3992efe",
+        "startLocatie": "0-0",
+        "bestemmingLocatie": "0-0",
+        "status": "AANGEKOMEN",
+        "vervoerDatum": "2023-02-06T15:43:29.717+00:00",
+        "ontvangstDatum": "2023-02-06T15:43:32.065+00:00"
+      },
+      {
+        "id": 7,
+        "createdDate": "2023-02-06T15:58:38.000+00:00",
+        "lastModifiedDate": "2023-02-06T15:58:40.000+00:00",
+        "createdBy": null,
+        "createdByOrganisation": 10,
+        "lastModifiedBy": null,
+        "deleted": false,
+        "transportUUID": "e09053f6-c66b-45cc-afae-6398d7014a0f",
+        "startLocatie": "0-0",
+        "bestemmingLocatie": "0-0",
+        "status": "AANGEKOMEN",
+        "vervoerDatum": "2023-02-06T15:58:38.313+00:00",
+        "ontvangstDatum": "2023-02-06T15:58:40.143+00:00"
+      },
+      {
+        "id": 8,
+        "createdDate": "2023-02-07T12:12:36.000+00:00",
+        "lastModifiedDate": "2023-02-07T12:12:37.000+00:00",
+        "createdBy": null,
+        "createdByOrganisation": 10,
+        "lastModifiedBy": null,
+        "deleted": false,
+        "transportUUID": "4a2ae6aa-fe5f-4713-af44-8c935327b7fb",
+        "startLocatie": "0-0",
+        "bestemmingLocatie": "0-0",
+        "status": "AANGEKOMEN",
+        "vervoerDatum": "2023-02-07T12:12:36.301+00:00",
+        "ontvangstDatum": "2023-02-07T12:12:36.851+00:00"
+      },
+      {
+        "id": 9,
+        "createdDate": "2023-02-07T13:17:39.000+00:00",
+        "lastModifiedDate": "2023-02-07T13:18:11.000+00:00",
+        "createdBy": null,
+        "createdByOrganisation": 10,
+        "lastModifiedBy": null,
+        "deleted": false,
+        "transportUUID": "02e4ffd7-972d-42cb-8811-0e717b274f1d",
+        "startLocatie": "37.4226711--122.0849872",
+        "bestemmingLocatie": "37.4226711--122.0849872",
+        "status": "AANGEKOMEN",
+        "vervoerDatum": "2023-02-07T13:17:39.260+00:00",
+        "ontvangstDatum": "2023-02-07T13:18:10.611+00:00"
+      },
+      {
+        "id": 10,
+        "createdDate": "2023-02-07T13:20:32.000+00:00",
+        "lastModifiedDate": "2023-02-07T13:20:58.000+00:00",
+        "createdBy": null,
+        "createdByOrganisation": 10,
+        "lastModifiedBy": null,
+        "deleted": false,
+        "transportUUID": "a33bfad1-2e1b-47d1-85ca-7c8a0bc51433",
+        "startLocatie": "37.4226711--122.0849872",
+        "bestemmingLocatie": "37.4226711--122.0849872",
+        "status": "AANGEKOMEN",
+        "vervoerDatum": "2023-02-07T13:20:32.382+00:00",
+        "ontvangstDatum": "2023-02-07T13:20:57.920+00:00"
+      }
+    ],
+    "status": "FINAAL",
+    "lzpritId": "LZP0000000001"
+}
